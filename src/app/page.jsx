@@ -23,7 +23,8 @@ export default function Home() {
       />
       <WorkWithUs
         HeroImage={imageThree}
-        textOne="Help Us Reinvent Manufacturing"
+        textOne="Help Us Reinvent"
+        textTwo="Manufacturing"
       />
     </main>
   );

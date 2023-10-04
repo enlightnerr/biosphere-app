@@ -9,7 +9,10 @@ function Approach({
   itemFour,
 }) {
   return (
-    <div className="challenge__container w-full h-fit inline-flex flex-row-reverse  my-5 justify-between items-center">
+    <div
+      className="challenge__container w-full h-fit inline-flex flex-row-reverse  my-5 justify-between items-center"
+      id="ourapproach"
+    >
       <div className="image__container w-1/2 h-1/2">
         <Image src={HeroImage} alt="" className="rounded-xl h-[550px]" />
       </div>

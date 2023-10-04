@@ -5,9 +5,9 @@ import Link from "next/link";
 
 const navData = [
   { id: 0, title: "Home", Link: "/" },
-  { id: 1, title: "The Challenge", Link: `/` },
-  { id: 2, title: "Our Approach", Link: "/" },
-  { id: 3, title: "Work with us", Link: "/" },
+  { id: 1, title: "The Challenge", Link: "thechallenege" },
+  { id: 2, title: "Our Approach", Link: "ourapproach" },
+  { id: 3, title: "Work with us", Link: "workwithus" },
 ];
 
 function Navbar() {
@@ -21,7 +21,7 @@ function Navbar() {
         {navData.map((link) => (
           <Fragment key={link.id}>
             <Link
-              href={link.Link}
+              href={`#${link.Link}`}
               className={`ml-1 px-2 py-1 rounded text-base focus:bg-bg-nav-link active:bg-bg-nav-link`}
             >
               {link.title}

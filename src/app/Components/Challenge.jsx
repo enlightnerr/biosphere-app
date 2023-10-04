@@ -2,7 +2,10 @@ import Image from "next/image";
 
 function Challenge({ HeroImage, textOne, textTwo }) {
   return (
-    <div className="challenge__container w-full h-fit inline-flex my-5 justify-start items-center">
+    <div
+      className="challenge__container w-full h-fit inline-flex my-5 justify-start items-center"
+      id="thechallenge"
+    >
       <div className="image__container w-1/2 h-1/2">
         <Image src={HeroImage} alt="" className="rounded-xl h-[550px]" />
       </div>
