@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: hsl(43, 24%, 94%);
+  overflow-y: hidden;
+  overflow-x: scroll;
 }

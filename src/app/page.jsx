@@ -1,9 +1,10 @@
-import Challenge from "./Components/Challenge";
-import Approach from "./Components/Approach";
-import WorkWithUs from "./Components/WorkWithUs";
-import { imageOne } from "./export";
-import { imageTwo } from "./export";
-import { imageThree } from "./export";
+import Challenge from './Components/Challenge';
+import Approach from './Components/Approach';
+import WorkWithUs from './Components/WorkWithUs';
+import { imageOne } from './export';
+import { imageTwo } from './export';
+import { imageThree } from './export';
+// import './page.css';
 
 export default function Home() {
   return (
